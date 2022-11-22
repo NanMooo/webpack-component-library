@@ -1,5 +1,5 @@
 {
-  "name": "webpack-component-library",
+  "name": "@nanmo/webpack-component-library",
   "version": "1.0.2",
   "description": "",
   "main": "lib/index.js",
@@ -9,6 +9,9 @@
     "packages",
     "example"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --progress --color --hot",
     "build": "webpack --config webpack.prod.js --progress --color",

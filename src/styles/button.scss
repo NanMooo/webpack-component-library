@@ -1,0 +1,102 @@
+@import './base.scss';
+@import './color.scss';
+
+.cl-button {
+  border-radius: $borderRadius;
+  padding: $defaultPaddingTop $defaultPaddingLeft;
+  border: 1px solid
+}
+
+.cl-button-large {
+  padding: $largePaddingTop $largePaddingLeft;
+}
+
+.cl-button-small {
+  padding: $smallPaddingTop $smallPaddingLeft;
+}
+
+.cl-button--default {
+  background-color: $defaultColor;
+  color: $defaultTextColor;
+  border-color: $defaultTextColor;
+}
+
+.cl-button--default:hover {
+  background-color: $primaryHoverColor;
+  color: $primaryColor;
+  border-color: $primaryHoverColor;
+}
+
+.cl-button--default:active{
+	border-color: $primaryActiveColor;
+}
+
+.cl-button--primary{
+	background-color: $primaryColor;
+	color: $primaryTextColor;
+	border-color: $primaryColor;
+}
+
+.cl-button--primary:hover{
+	background-color: $primaryHoverColor;
+}
+
+.cl-button--primary:active{
+	background-color: $primaryActiveColor;
+}
+
+.cl-button--warning{
+	background-color: $warningColor;
+	color: $warningTextColor;
+	border-color: $warningColor;
+}
+
+.cl-button--warning:hover{
+	background-color: $warningHoverColor;
+}
+
+.cl-button--warning:active{
+	background-color: $warningActiveColor;
+}
+
+.cl-button--danger{
+	background-color: $dangerColor;
+	color: $dangerTextColor;
+	border-color: $dangerColor;
+}
+
+.cl-button--danger:hover{
+	background-color: $dangerHoverColor;
+}
+
+.cl-button--danger:active{
+	background-color: $dangerActiveColor;
+}
+
+.cl-button--success{
+	background-color: $successColor;
+	color: $successTextColor;
+	border-color: $successColor;
+}
+
+.cl-button--success:hover{
+	background-color: $successHoverColor;
+}
+
+.cl-button--success:active{
+	background-color: $successActiveColor;
+}
+
+.cl-button--info{
+	background-color: $infoColor;
+	color: $infoTextColor;
+	border-color: $infoColor;
+}
+
+.cl-button--info:hover{
+	background-color: $infoHoverColor;
+}
+
+.cl-button--info:active{
+	background-color: $infoActiveColor;
+}
