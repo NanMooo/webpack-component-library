@@ -15,7 +15,9 @@
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --progress --color --hot",
     "build": "webpack --config webpack.prod.js --progress --color",
-    "build:style": "gulp"
+    "build:style": "gulp",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -32,7 +34,17 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.13",
     "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
     "css-loader": "^6.7.2",
     "cssnano": "^5.1.14",
     "gulp": "^4.0.2",
@@ -46,10 +58,11 @@
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "vue": "^3.2.45",
-    "vue-loader": "^17.0.1",
+    "vue-loader": "^16.8.3",
     "vue-template-compiler": "^2.7.14",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.11.1"
-  }
+  },
+  "dependencies": {}
 }
