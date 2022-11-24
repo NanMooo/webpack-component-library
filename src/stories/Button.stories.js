@@ -1,5 +1,5 @@
-import { Button } from './../../lib/index.js'
-import './../../lib/styles/index.css'
+import { Button } from './../index.js'
+import './../styles/index.scss'
 
 export default {
   title: 'Example/Button',
